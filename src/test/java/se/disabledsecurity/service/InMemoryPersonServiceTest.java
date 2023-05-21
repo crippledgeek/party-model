@@ -43,7 +43,7 @@ class InMemoryPersonServiceTest {
 	}
 
 	@Test
-	void testGetOldestChildName() {
+	void testShouldReturnOldestChildNameByParentSocialSecurityNumber() {
 		// Create a person
 		Person person = new Person();
 		person.setName("John Doe");
